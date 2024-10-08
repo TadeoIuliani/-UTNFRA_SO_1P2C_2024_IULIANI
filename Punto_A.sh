@@ -8,7 +8,7 @@ DIRECTORIO="/Examenes-UTN"
 if [ -d "$DIRECTORIO" ];then
 	echo "La estructura ya esta armada antes del script"
 else
-	sudo mkdir -p "$DIRECTORIO/alumno"{1..3}"/parcial"{1..3}"" "$DIRECTORIO/profesores"
+	sudo mkdir -p "$DIRECTORIO/alumno_"{1..3}"/parcial_"{1..3}"" "$DIRECTORIO/profesores"
 fi
 
 	if [ -d "$DIRECTORIO" ];then
